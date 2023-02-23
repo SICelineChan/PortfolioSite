@@ -4,7 +4,6 @@
 <head>
   <meta charset="utf-8">
   <title>CC Portfolio Page</title>
-
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -28,153 +27,141 @@
   <section class="colored-section" id="title">
 
     <div class="container-fluid">
-
-      <!-- Nav Bar -->
-
       <nav class="navbar navbar-expand-lg bd-navbar">
-        <a class="navbar-brand" href="/"> <h1 class="myPort"> My Portfolio</h1>
-         </a>
-
+        <a class="navbar-brand" href="/"> <h1 class="myPort">Portfolio</h1></a>
+         
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="about">About Me</a>
+              <a class="nav-link" href="https://myfunproject.onrender.com/about">About Me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/">Projects</a>
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/SICelineChan">
+                <i class="fa-brands fa-github"></i></a>
             </li>
           </ul>
-
         </div>
       </nav>
-
-
-      <!-- Title -->
-
-      <div class="row">
-        <div class="col-lg-6">
-          <h1 class="myName">My name is Celine Chan</h1>
-          <h4 class="big-heading">Nice to meet you!</h4>
+      <div class="row justify-content-end">
+        <div class="col-lg-8">
+          <h1 class="myName">My name is ...</h1>
+          <img class="title-image" src="images/cc.png" alt="celine is a full stack developer">
         </div>
-
-        <div class="col-lg-6">
-          <img class="title-image" src="images/iphone6.png" alt="iphone-mockup">
+        <div class="col-lg-4 align-self-start">
+          <img class="tilt" src="images/meInJpn.png" alt="cc in japan">
+          <h4 class="nice-hello">Nice to meet you!</h4>
+          <a href="#hello"><i class="fa-solid fa-arrow-down"></i></a> 
         </div>
-
       </div>
-
-    </div>
-
   </section>
 
 
-  <!-- Features -->
-
-  <section class="white-section" id="features">
-    <div class="custom-shape-divider-top-1677104512">
+  <section class="white-section" id="briefHello">
+    <div class="corner">
       <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
           <path d="M1200 0L0 0 598.97 114.72 1200 0z" class="shape-fill"></path>
       </svg>
   </div>
     <div class="container-fluid">
       <div class="row">
-        <div class="feature-box col-lg-9 pt-lg-4">
-        
-          <h3 class="feature-title pt-lg-4"> A Brief Hello!</h3>
-          <p>My name is Celine, I am a full stack web developer. There was a time when I was a health inspector in London, but then I decided to travel. Then I became a baker in Germany and leart to speak a lil German. Now I put my foot down and get coding!</p>
+        <div id="hello" class="briefHello-box col-lg-9 pt-lg-4">
+          <h3 class="briefHello-title pt-lg-2"> A Brief Hello!</h3>
+          <p class="p-sm-1">Once a health inspector, then a baker, now a full stack developer!</p>
+          <p class="p-sm-1">Born in Hong Kong, British on paper, now living in Hamburg!</p>
+  <h2 id="techStack" class="p-sm-1">My Tech Stack</h2>
+           <button onclick="seeMore()" class="btn btn-outline-dark" ><i class="fa-solid fa-layer-group"></i></button>
         </div>
-
-       
-
-
     </div>
   </section>
 
-<div class=""></div>
-
- 
 
   <section class="spacing yellowLayer white-section">
+    <h2 class="third-heading">My Projects</h2>
+    <h3 class="third-heading">Projects that I'm working on</h3>
 
-    <h2 class="section-heading">My Projects</h2>
-    <p>A quick glace at what I've built (or still building!)</p>
-
-    <div class="row">
-
-      <div class="pricing-column col-lg-4 col-md-6">
+    <div id="projects" class="row">
+      <div class="project-column col-lg-4 col-md-6">
         <div class="card">
           <div class="card-header">
-            <img>
+            <img class="card-img-top" src="/images/nodejsWeb.png" alt="Card image cap">
           </div>
           <div class="card-body">
-            <h2 class="price-text">Travel Blog No2</h2>
-            <p>Node.js</p>
-            <p>HTML</p>
-            <p>CSS</p>
-            <p>MongoDB</p>
-            <p>Rest APIs</p>
-            <p>Bootstrap</p>
-            <button class="btn btn-lg btn-block btn-outline-dark" type="button">Github</button>
+            <h2 class="project-text">Travel Blog No2</h2>
+            <p>Tech Stack:</p>
+            <p>Node.js /Bootstrap /Rest APIs /MongoDB</p>
+            <a href="https://github.com/SICelineChan/Chromebk_Project1_Nodejs">
+            <button class="btn btn-lg btn-block btn-outline-dark" type="button">Github</button></a>
           </div>
         </div>
       </div>
 
-      <div class="pricing-column col-lg-4 col-md-6">
+      <div class="project-column col-lg-4 col-md-6">
         <div class="card">
           <div class="card-header">
-            <img src="" alt="">
+            <img class="card-img-top" src="/images/reactApp.png" alt="Card image cap">
           </div>
           <div class="card-body">
-            <h2 class="price-text">Final Project</h2>
-            <p>React.js</p>
-            <p>HTML</p>
-            <p>CSS</p>
-            <p>React Bootstrap</p>
-            <button class="btn btn-lg btn-block btn-outline-dark" type="button">Github</button>
+            <h2 class="project-text">Final Project</h2>
+            <p>Tech Stack:</p>
+            <p>React.js /HTML /CSS /React Bootstrap</p>
+            <a href="https://github.com/SICelineChan/projectFin_hcs_cc">
+            <button class="btn btn-lg btn-block btn-outline-dark" type="button">Github</button></a>
           </div>
         </div>
       </div>
 
-      <div class="pricing-column col-lg-4">
+      <div class="project-column col-lg-4">
         <div class="card">
           <div class="card-header">
-            <h3></h3>
+            <h4>Under Construction</h4>
           </div>
           <div class="card-body">
-            <h2 class="price-text">Weather App</h2>
-            <p>React.js</p>
-            <p>HTML</p>
-            <p>CSS</p>
-            <p>React Bootstrap</p>
-            <button class="btn btn-lg btn-block btn-dark" type="button">Github</button>
-
+            <h2 class="project-text">Weather App</h2>
+            <p>Tech Stack:</p>
+            <p>React.js /HTML /CSS /React Bootstrap</p>
+            <a href="https://github.com/SICelineChan/weatherApp-with-React.js">
+            <button class="btn btn-lg btn-block btn-dark" type="button">Github</button></a>
           </div>
         </div>
       </div>
-
-
-
     </div>
-
   </section>
-
-  
 
   <footer class="white-section" id="footer">
     <div class="container-fluid">
+      <a href="https://github.com/SICelineChan">
+      <i class="social-icon fa-brands fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/celine-chan-179a572b/">
+      <i class="social-icon fa-brands fa-linkedin"></i></a>
+      <a href="mailto:cctinlone@gmail.com"><i class="social-icon fas fa-envelope"></i></a>
       
-      
-      <i class="social-icon fab fa-twitter"></i>
-      <i class="social-icon fab fa-instagram"></i>
-      <i class="social-icon fas fa-envelope"></i>
-      <p>© Copyright 2023 celine S I chan</p>
+      <h3>© Copyright 2023 celine S I chan</h3>
     </div>
+    <div class="wavy">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+          <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+      </svg>
+  </div>
   </footer>
+ 
 
+<script>
+  const moreBtn = document.querySelector("#moreBtn");
+  function seeMore(){
+    let techStack = document.querySelector("#techStack");
+    if (techStack.innerHTML =="My Tech Stack"){
+      techStack.innerHTML ="Node.js, React.js, MySQL, MongoDB and Bootstrap";
+    }
+    else {techStack.innerHTML="My Tech Stack"}
+  }
+
+</script>
 </body>
 </html>
