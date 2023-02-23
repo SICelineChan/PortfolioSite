@@ -1,0 +1,183 @@
+/*font-family: 'Cardo', serif;
+font-family: 'Didact Gothic', sans-serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Mynerve', cursive;
+font-family: 'Permanent Marker', cursive;*/
+
+body {
+  font-family: 'Didact Gothic', sans-serif;
+  text-align: center;
+}
+
+p {
+  font-family: 'Inter', sans-serif;
+  color: #8f8f8f;
+}
+
+/* Headings */
+.myPort{
+  font-family: 'Poppins', sans-serif;
+  font-size: 8rem;
+  color: #FFB319
+}
+.myName{
+  font-size: 5.5rem;
+  line-height: 1;
+}
+.big-heading {
+  font-family: 'Mynerve', cursive;
+  font-size: 4rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+.container-fluid{
+  padding: 5% 12%;
+}
+
+/* Sections */
+
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-family: 'Cardo', serif;
+}
+
+/* Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+
+#title {
+  background-color: #B8DFD8;
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Title Image */
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Features Section */
+
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+
+
+.spacing{
+        aspect-ratio: 860/500;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding: 100px;
+
+}
+.yellowLayer{
+        background-image: url(/images/yellow.svg);
+        
+        
+}
+
+/* Pricing Section */
+
+
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* CTA Section */
+
+
+/* Footer Section */
+
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+.custom-shape-divider-top-1677104512 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1677104512 svg {
+  position: relative;
+  display: block;
+  width: calc(136% + 1.3px);
+  height: 147px;
+}
+
+.custom-shape-divider-top-1677104512 .shape-fill {
+  fill: #B8DFD8;
+}
