@@ -97,27 +97,13 @@ p {
   color: #0f6292;
   text-shadow: #8f8f8f;
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .briefHello-title {
   color: #0f6292;
   text-shadow: #8f8f8f;
   font-size: 5.5rem;
-}
-.techStack {
-  font-size: 20px;
-  background-color: rgb(199, 228, 157);
-  width: 100%;
-  padding: 15px;
-  font-weight: bold;
-}
-.toggleBtn {
-  padding: 15px;
-  border: none;
-  background-color: rgb(106, 41, 153);
-  color: white;
-  font-size: 18px;
 }
 
 .briefHello-box p {
@@ -151,7 +137,7 @@ p {
   padding: 100px;
 }
 .yellowLayer {
-  background-image: url(/images/jagged.svg);
+  background-image: url(/images/jagged2.png);
 }
 
 .third-heading {
