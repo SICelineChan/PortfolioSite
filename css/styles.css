@@ -9,12 +9,19 @@ body {
   text-align: left;
 }
 
-p {
+.briefHello-box > p {
   font-family: "Inter", sans-serif;
   font-size: 1.4rem;
-  -webkit-text-fill-color: #aaaaaa;
+  color: #aaaaaa;
+  text-align: left;
+}
+
+h5 {
+  font-family: "Inter", sans-serif;
+  font-size: 2rem;
+  -webkit-text-fill-color: black;
   -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: #ffed00;
+  -webkit-text-stroke-color: #aaaaaa;
   text-align: center;
 }
 

@@ -17,8 +17,9 @@
   <script src="https://kit.fontawesome.com/86c485152f.js" crossorigin="anonymous"></script>
 
   <!-- Bootstrap Scripts -->
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -27,14 +28,14 @@
 
     <div class="container-fluid">
       <nav class="navbar navbar-expand-lg bd-navbar">
-        <a class="navbar-brand" href="/"> <h1 class="myPort">Portfolio</h1></a>
+        <a class="navbar-brand" href="/"><h1 class="myPort">Portfolio</h1></a>
          
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
             <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <ul class="navbar-nav ml-auto">
+          <ul class="navbar-nav">
             <li class="nav-item">
               <a class="nav-link" href="https://myfunproject.onrender.com/about">About Me</a>
             </li>
@@ -95,7 +96,7 @@
           <a href="https://myfunproject.onrender.com/"><img id="slideImg" src="images/nodejsWeb.png" class="d-block w-100" alt="nodejsApp"></a>
           <div class="carousel-caption d-none d-md-block text-white">
             <h3>Travel Blog using Node.js</h3>
-            <p>A project using Express, MongoDB and Bootstrap.</p>
+            <h5>A project using Express, MongoDB and Bootstrap.</h5>
             <a href="https://github.com/SICelineChan/Chromebk_Project1_Nodejs">
               <button class="btn btn-lg btn-block btn-dark" type="button">Github</button></a>
               <a href="https://myfunproject.onrender.com/">
@@ -106,7 +107,7 @@
           <a href="https://github.com/SICelineChan/projectFin_hcs_cc"></a><img id="slideImg" src="images/reactApp.png" class="d-block w-100" alt="reactApp"></a>
           <div class="carousel-caption d-none d-md-block text-white">
             <h3>Travel Blog using React.js</h3>
-            <p>Final project at HCS using React.js and Bootstrap.</p>
+            <h5>Final project at HCS using React.js and Bootstrap.</h5>
             <a href="https://github.com/SICelineChan/projectFin_hcs_cc">
               <button class="btn btn-lg btn-block btn-dark" type="button">Github</button></a>
               <a href="https://letdothistravel.netlify.app/">
@@ -117,7 +118,7 @@
           <a href="https://github.com/SICelineChan/projectFin_hcs_cc"> <img id="slideImg" src="images/learn, try, code.png"  class="d-block w-100" alt="React Weather App"></a>
           <div class="carousel-caption d-none d-md-block text-white">
             <h3>Weather App using React.js</h3>
-            <p>Using React.js and Bootstrap.</p>
+            <h5>Using React.js and Bootstrap.</h5>
             <a href="https://github.com/SICelineChan/projectFin_hcs_cc">
               <button class="btn btn-lg btn-block btn-outline-dark" type="button">Github</button></a>
           </div>
@@ -153,6 +154,7 @@
  
 
 <script>
+ 
   const moreBtn = document.querySelector("#moreBtn");
   function seeMore(){
     let techStack = document.querySelector("#techStack");
