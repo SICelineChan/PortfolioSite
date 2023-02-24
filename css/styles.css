@@ -12,7 +12,9 @@ body {
 p {
   font-family: "Inter", sans-serif;
   font-size: 1.4rem;
-  color: #aaaaaa;
+  -webkit-text-fill-color: #aaaaaa;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #ffed00;
   text-align: center;
 }
 
