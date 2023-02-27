@@ -22,8 +22,6 @@ h5 {
   color: #fff;
   text-align: center;
 }
-
-/* Headings */
 .myPort {
   font-family: "Poppins", sans-serif;
   -webkit-text-fill-color: black;
@@ -43,12 +41,10 @@ h5 {
   z-index: -1;
 }
 
-/* Containers */
 .container-fluid {
   padding: 5% 5% 2%;
 }
 
-/* Sections */
 .white-section {
   background-color: #fff;
 }
@@ -91,8 +87,6 @@ h5 {
   color: lightgoldenrodyellow;
 }
 
-/* Title Section */
-
 #title {
   background-color: black;
   color: #fff;
@@ -107,7 +101,6 @@ h5 {
 }
 #techStack {
   color: #0f6292;
-  text-shadow: #8f8f8f;
   font-weight: bold;
   font-size: 1.2rem;
 }
@@ -178,8 +171,9 @@ h5 {
 .third-heading {
   text-align: center;
   font-family: "Didact Gothic", sans-serif;
-  font-size: 2.5rem;
-  color: #fff;
+  font-size: 3.5rem;
+  font-weight: bolder;
+  color: #ffed00;
 }
 
 /* Footer Section */
