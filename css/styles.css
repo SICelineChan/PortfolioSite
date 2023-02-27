@@ -59,13 +59,16 @@ h5 {
 }
 
 .navbar-brand {
-  font-family: "Didact Gothic", sans-serif;
-  font-size: 2.5rem;
+  font-family: "Poppins", sans-serif;
   font-weight: bold;
+  -webkit-text-fill-color: black;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #ffed00;
 }
 
 .nav-item {
   padding: 0 5px;
+  color: #8f8f8f;
 }
 
 .nav-link {
@@ -73,6 +76,10 @@ h5 {
   text-decoration: none;
   font-size: 2rem;
   font-family: "Didact Gothic", sans-serif;
+}
+.nav-link:focus,
+.nav-link:hover {
+  color: #7fbbde;
 }
 
 /* Buttons */
@@ -118,7 +125,23 @@ h5 {
   text-align: left;
   position: relative;
   z-index: 1;
+  animation-duration: 3s;
+  animation-name: helloSlide;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
 }
+@keyframes helloSlide {
+  from {
+    margin-left: 100%;
+    width: 500%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
 /*  Image */
 .title-image {
   width: 100%;
@@ -128,25 +151,23 @@ h5 {
   right: 60%;
 }
 .tilt {
-  position: static;
+  position: relative;
   width: 350px;
   height: 380px;
   transform: rotate(10deg);
-  left: 30%;
+  left: 5%;
 }
 
 /* jagged bdgd */
 
 .spacing {
+  background-image: url(/images/jagged2.png);
   aspect-ratio: 860/500;
   width: 100%;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   padding: 100px;
-}
-.yellowLayer {
-  background-image: url(/images/jagged2.png);
 }
 
 #slideImg {
@@ -244,4 +265,15 @@ Footer {
 
 .wavy .shape-fill {
   fill: white(149, 21%, 68%);
+}
+
+.animatedBand-moves {
+  position: absolute;
+  top: 25%;
+  left: 10%;
+  transform: translateY(-20%);
+  z-index: -1;
+}
+.animatedBand {
+  z-index: 1;
 }
