@@ -118,7 +118,7 @@ h5 {
   text-align: left;
   position: relative;
   z-index: 1;
-  animation-duration: 3s;
+  animation-duration: 7s;
   animation-name: helloSlide;
   animation-iteration-count: 1;
   animation-direction: alternate;
@@ -149,6 +149,10 @@ h5 {
   height: 380px;
   transform: rotate(10deg);
   left: 5%;
+}
+.image-fluid {
+  width: 80%;
+  height: 80%;
 }
 
 /* jagged bdgd */
@@ -190,11 +194,11 @@ Footer {
   #title {
     text-align: center;
   }
-
   .title-image {
     position: static;
     transform: rotate(0);
   }
+
   .yellowLayer {
     position: static;
   }
@@ -205,10 +209,11 @@ Footer {
     transform: none;
   }
   #slideImg {
-    width: 100%;
+    width: 400%;
     height: 30rem !important;
     object-fit: cover;
   }
+
   .carousel-caption,
   h3,
   h5 {
@@ -228,7 +233,6 @@ Footer {
   line-height: 0;
   z-index: 1;
 }
-
 .corner svg {
   position: static;
   display: block;
@@ -239,7 +243,6 @@ Footer {
 .corner .shape-fill {
   fill: black;
 }
-
 .wavy {
   position: relative;
   top: 220%;
@@ -269,5 +272,5 @@ Footer {
   z-index: -1;
 }
 .animatedBand {
-  z-index: 1;
+  z-index: 0;
 }
