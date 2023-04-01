@@ -273,3 +273,20 @@ Footer {
 .animatedBand {
   z-index: 0;
 }
+
+.hide {
+  opacity: 0;
+  filter: blur(2px);
+  transform: translateX(-100%);
+  transition: all 1s;
+}
+@media (prefers-reduction-motion) {
+  .hide {
+    transition: none;
+  }
+}
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
