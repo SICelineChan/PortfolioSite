@@ -16,6 +16,7 @@
   
   <script src="https://kit.fontawesome.com/86c485152f.js" crossorigin="anonymous"></script>
   <script defer src="interApp.js"></script>
+  <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
   <!-- Bootstrap Scripts -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -29,7 +30,7 @@
   <section class="colored-section" id="black-background">
     <div class="container-fluid">
       <nav class="navbar navbar-expand-lg bd-navbar">
-        <a class="navbar-brand" href="/"><h1 class="myPort">Portfolio</h1></a>
+        <a class="navbar-brand" href="/"><h1 class="header-Portfolio">Portfolio</h1></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
             <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
         </button>
@@ -37,7 +38,7 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="https://sicelinechan.github.io/PortfolioSite/aboutMe">About Me</a>
+              <a class="nav-link" href="#aboutMe">About Me</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#projects">Projects</a>
@@ -51,7 +52,7 @@
       </nav>
       <div class="container justify-content-center">
         <div class="row">
-          <h1 class="myName hide">Hey,my name is...</h1>
+          <h1 class="myName hide">Hey, my name is...</h1>
         <div class="col-lg-8">
           <img class="title-image" src="images/ccHeader.png" alt="I'm a junior web developer">
         </div>
@@ -64,37 +65,74 @@
   </section>
   
   <section class="white-section" id="briefHello">
-    <div class="corner">
-      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-          <path d="M1200 0L0 0 598.97 114.72 1200 0z" class="shape-fill"></path>
-      </svg>
-  </div>
-    <div class="container-fluid">
+    <div id="aboutMe" class="container-fluid">
       <div class="row">
-        <div id="hello" class="briefHello-box col-lg-9 pt-lg-4">
-          <h3 class="briefHello-title pt-lg-2"> A little intro</h3>
-          <p class="p-sm-1">Once a health inspector, then a baker and now a junior web developer. I was born in Hong Kong, spent most of my late teen and adult life in London. Currently living in Hamburg and beginning a new journey in web development. </p>
-          
-          <div class="row">
-            <div class="col-6"><h3 id="techStack" class="p-sm-1">My Tech Stack</h3></div>
-            <div class="col-6"><button onclick="seeMore()" class="btn btn-outline-dark" ><i class="fa-solid fa-layer-group"></i></button></div>
-          </div>        
+        <div id="hello" class="briefHello-box pt-lg-4">
+          <h3 class="subheading hide pt-lg-2"> A brief introduction <lord-icon
+            src="https://cdn.lordicon.com/brkoqxzy.json"
+            trigger="loop"
+            colors="primary:#242424,secondary:#1b1091,tertiary:#f9c9c0"
+            style="width:80px;height:80px;padding: 1% 2%;">
+        </lord-icon></h3>
+          <div></div>
+          <p class="px-md-5">Born in Hong Kong but spent most of my life in London. Once a health inspector, then became a baker in Germany. Recently graduated from Hamburg Coding School (HCS) in their Full-Stack program and beginning my journey to becoming a junior web developer. For more about my work experiences, you can visit my <a style="text-decoration:none;" href="https://www.linkedin.com/in/celine-chan-179a572b/">
+            LinkedIn</a> profile and have a look at my CV.</p>     
+        </div>
+        <div class="d-flex row g-4 py-5 row-cols-1 row-cols-lg-3">
+          <div class="col">
+            <div class="text-center"><lord-icon
+              src="https://cdn.lordicon.com/nobciafz.json"
+              trigger="hover"
+              colors="primary:#121331,secondary:#66d7ee"
+              style="width:100px;height:100px">
+          </lord-icon></div>
+            <div class="fs-2 text-center">The Basics</div>
+            <p>Html, CSS and Javascript. The "must" for every web developer, and there are jsut so many new ways to code. I'm taking little chunks of new CSS and Javascript codes in my mini-practice.</p>
+            <p>Check out my personal JS playground on <a href="https://github.com/SICelineChan/jsPlayGround">Github</a>.</p>
+          </div>
+          <div class="col">
+            <div class="text-center"><lord-icon
+              src="https://cdn.lordicon.com/anihkfxp.json"
+              trigger="hover"
+              colors="primary:#121331,secondary:#ff66c4,tertiary:#eee966"
+              style="width:100px;height:100px">
+          </lord-icon></div>
+            <div class="fs-2 text-center">The Frameworks/Libraries</div>
+            <p>I used Bootstrap for CSS framework quite often and currently learning Tailwind CSS. For JS libraries, I like to code with React.js and taking on simple exercises to learn the hooks.</p>
+            <p>You can also check out my personal React playground on  <a href="https://github.com/SICelineChan/React-Practice">Github</a>.</p>
+
+          </div>
+          <div class="col">
+            <div class="text-center"><lord-icon
+              src="https://cdn.lordicon.com/wrprwmwt.json"
+              trigger="hover"
+              colors="primary:#121331,secondary:#eee966"
+              style="width:100px;height:100px">
+          </lord-icon></div>
+            <div class="fs-2 text-center">The Backend bit</div>
+            <p>I learnt Node.js and Express.js with HCS. s a superuser for a large database back in the days, I'm not fazed to build some basic in MySql and MongoDB.</p>
+            <p>You can check out my function blog for <a href="https://myfunproject.onrender.com/">Qulimes</a>.</p>
+          </div>
         </div>
     </div>
   </section>
 
   <section>
-  <div id="projects" class="container-fluid spacing yellowLayer">
-    <h1 class="third-heading">My Projects</h1>
-    <h3 class="third-heading">Projects that I have and am working on</h3>
-  
+  <div id="projects" class="container-fluid">
+    <h1 class="subheading hide pt-lg-2">My Projects <lord-icon
+      src="https://cdn.lordicon.com/qatykyxz.json"
+      trigger="loop"
+      colors="primary:#121331,secondary:#f49cc8"
+      style="width:150px;height:150px; padding:4% 2%;">
+  </lord-icon> </h1>
+    <h3 class="subheading hide pt-md-2 text-muted">Projects that I have and am working on</h3>
     <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner container-fluid">
         <div class="carousel-item active">
           <a href="https://myfunproject.onrender.com/"><img id="slideImg" src="images/qulimesBlog.png" class="img-fluid" alt="nodejsApp"></a>
           <div class="carousel-caption d-none d-md-block text-white">
-            <h2>Travel Blog using Node.js</h2>
-            <h5>A project using Express, MongoDB and Bootstrap.</h5>
+            <h2>A Travel Blog from Qulimes</h2>
+            <h5>A personal project to create/edit/delete blog posts with Node.js, Express.js and MongoDB.</h5>
             <a href="https://github.com/SICelineChan/Chromebk_Project1_Nodejs">
               <button class="btn btn-lg btn-block btn-dark" type="button">Github</button></a>
               <a href="https://myfunproject.onrender.com/">
@@ -104,8 +142,8 @@
         <div class="carousel-item">
           <a href="https://github.com/SICelineChan/projectFin_hcs_cc"></a><img id="slideImg" src="images/reactApp.png" class="img-fluid" alt="reactApp"></a>
           <div class="carousel-caption d-none d-md-block text-white">
-            <h2>Travel Blog using React.js</h2>
-            <h5>Final project at HCS using React.js and Bootstrap.</h5>
+            <h2>Travel Blog with clickable map function</h2>
+            <h5>Final project at HCS using React.js and Bootstrap that has map function using Mapbox.</h5>
             <a href="https://github.com/SICelineChan/projectFin_hcs_cc">
               <button class="btn btn-lg btn-block btn-dark" type="button">Github</button></a>
               <a href="https://letdothistravel.netlify.app/">
@@ -116,7 +154,7 @@
           <a href="https://github.com/SICelineChan/projectFin_hcs_cc"> <img id="slideImg" src="images/weatherApp.png"  class="img-fluid" alt="React Weather App"></a>
           <div class="carousel-caption d-none d-md-block text-white">
             <h2>Weather App using React.js</h2>
-            <h5>Using React.js and Bootstrap.</h5>
+            <h5>Mini-project to practice React.js, JS and Bootstrap to search weather information of any city.</h5>
             <a href="https://github.com/SICelineChan/projectFin_hcs_cc">
               <button class="btn btn-lg btn-block btn-outline-light" type="button">Github</button></a>
           </div>
@@ -149,19 +187,5 @@
       </svg>
   </div>
   </footer>
- 
-
-<script>
- 
-  const moreBtn = document.querySelector("#moreBtn");
-  function seeMore(){
-    let techStack = document.querySelector("#techStack");
-    if (techStack.innerHTML =="My Tech Stack"){
-      techStack.innerHTML ="Node.js, React.js, MySQL, MongoDB and Bootstrap";
-    }
-    else {techStack.innerHTML="My Tech Stack"}
-  }
-
-</script>
 </body>
 </html>

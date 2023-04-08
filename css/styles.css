@@ -2,32 +2,17 @@ body {
   font-family: "Didact Gothic", sans-serif;
   text-align: left;
 }
-
 .briefHello-box > p {
   font-family: "Inter", sans-serif;
   font-size: 1.4rem;
   color: #918c8c;
-  text-align: left;
 }
-
-h2 {
-  -webkit-text-fill-color: black;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #d7f0d2;
-}
-
-h5 {
-  font-family: "Inter", sans-serif;
-  font-size: 1.2rem;
-  color: #fff;
-  text-align: center;
-}
-.myPort {
+.header-Portfolio {
   font-family: "Poppins", sans-serif;
-  -webkit-text-fill-color: black;
+  -webkit-text-fill-color: #303030;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: #ffed00;
-  font-size: 6.5rem;
+  font-size: 7rem;
 }
 .myName {
   font-family: "Inter", sans-serif;
@@ -35,12 +20,6 @@ h5 {
   font-size: 3.5rem;
   font-weight: bold;
 }
-.nice-hello {
-  font-size: 1.6rem;
-  color: #ffed00;
-  z-index: -1;
-}
-
 .container-fluid {
   padding: 5% 5% 2%;
 }
@@ -70,7 +49,7 @@ h5 {
 .nav-link {
   color: #f236cf;
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 3rem;
   font-family: "Didact Gothic", sans-serif;
 }
 .nav-link:focus,
@@ -79,10 +58,6 @@ h5 {
 }
 
 /* Buttons */
-
-.download-button {
-  margin: 5% 3% 5% 0;
-}
 .navbar-toggler-icon {
   color: lightgoldenrodyellow;
 }
@@ -92,89 +67,40 @@ h5 {
   color: #fff;
   text-align: left;
 }
-
 #title .container-fluid {
   padding: 2% 5% 0 5%;
-}
-#briefHello {
-  position: relative;
-}
-#techStack {
-  color: #0f6292;
-  font-weight: bold;
-  font-size: 1.2rem;
-}
-
-.briefHello-title {
-  color: #0f6292;
-  text-shadow: #8f8f8f;
-  font-size: 5.5rem;
-  position: relative;
-  z-index: 1;
-}
-
-.briefHello-box p {
-  padding: 2%;
-  text-align: left;
-  position: relative;
-  z-index: 1;
-  animation-duration: 7s;
-  animation-name: helloSlide;
-  animation-iteration-count: 1;
-  animation-direction: alternate;
-}
-@keyframes helloSlide {
-  from {
-    margin-left: 100%;
-    width: 500%;
-  }
-
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
 }
 
 /*  Image */
 .title-image {
-  width: 90%;
-  height: 85%;
+  width: 100%;
+  height: 100%;
   position: static;
-  right: 50%;
+  right: 65%;
 }
 .portrait {
-  width: 300px;
-  height: 320px;
-  left: 5%;
+  width: 380px;
+  height: 360px;
+  left: 25%;
 }
 .image-fluid {
   width: 80%;
   height: 80%;
 }
 
-/* jagged bdgd */
-
-.spacing {
-  background-image: url(/images/jagged2.png);
-  aspect-ratio: 860/500;
+#slideImg:hover {
   width: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  padding: 100px;
+  height: 550px;
+  -webkit-filter: blur(3px);
+  filter: blur(3px);
 }
 
-#slideImg {
-  width: 100%;
-  height: 500px;
-}
-
-.third-heading {
+.subheading {
   text-align: center;
   font-family: "Didact Gothic", sans-serif;
   font-size: 3.5rem;
   font-weight: bolder;
-  color: #ffed00;
+  color: #202020;
 }
 
 /* Footer Section */
@@ -184,7 +110,7 @@ Footer {
 .social-icon {
   margin: 20px 10px;
   font-size: 1.5rem;
-  color: #8f8f8f;
+  color: #7d7777;
 }
 
 @media (max-width: 1028px) {
@@ -193,23 +119,19 @@ Footer {
   }
   .title-image {
     position: static;
-    transform: rotate(0);
   }
-
-  .yellowLayer {
-    position: static;
+  .portrait {
+    position: relative;
   }
   .wavy {
     position: static;
   }
-  .tilt {
-    transform: none;
-  }
-  #slideImg {
+  #slideImg:hover {
     width: 100%;
-    height: 400px !important;
+    height: 450px !important;
+    -webkit-filter: blur(3px);
+    filter: blur(3px);
   }
-
   .carousel-caption,
   h3,
   h5 {
@@ -220,25 +142,6 @@ Footer {
     height: 20%;
   }
 }
-.corner {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-  z-index: 1;
-}
-.corner svg {
-  position: static;
-  display: block;
-  width: calc(136% + 1.3px);
-  height: 300px;
-}
-
-.corner .shape-fill {
-  fill: black;
-}
 .wavy {
   position: relative;
   top: 220%;
@@ -247,7 +150,6 @@ Footer {
   overflow: hidden;
   line-height: 0;
 }
-
 .wavy svg {
   position: relative;
   display: block;
@@ -255,20 +157,8 @@ Footer {
   height: 123px;
   transform: rotateX(180deg);
 }
-
 .wavy .shape-fill {
   fill: white(149, 21%, 68%);
-}
-
-.animatedBand-moves {
-  position: absolute;
-  top: 25%;
-  left: 10%;
-  transform: translateY(-20%);
-  z-index: -1;
-}
-.animatedBand {
-  z-index: 0;
 }
 
 .hide {
