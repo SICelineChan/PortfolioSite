@@ -23,12 +23,10 @@ body {
 .container-fluid {
   padding: 5% 5% 2%;
 }
-
 .white-section {
   background-color: #fff;
 }
 
-/* Navigation Bar */
 .navbar {
   padding: 0 0 2.5rem;
 }
@@ -40,7 +38,6 @@ body {
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: #ffed00;
 }
-
 .nav-item {
   padding: 0 5px;
   color: #8f8f8f;
@@ -56,8 +53,6 @@ body {
 .nav-link:hover {
   color: #7fbbde;
 }
-
-/* Buttons */
 .navbar-toggler-icon {
   color: lightgoldenrodyellow;
 }
@@ -83,22 +78,23 @@ body {
   height: 360px;
   left: 25%;
 }
-.image-fluid {
-  width: 80%;
-  height: 80%;
+.slideImages {
+  width: 100%;
+  height: 650px;
 }
 
 #slideImg:hover {
-  width: 100%;
-  height: 550px;
-  -webkit-filter: blur(3px);
-  filter: blur(3px);
+  -webkit-filter: blur(5px);
+  filter: blur(5px);
+}
+.carousel-caption {
+  font-family: "Inter", sans-serif;
+  font-size: 3rem;
 }
 
 .subheading {
   text-align: center;
   font-family: "Didact Gothic", sans-serif;
-  font-size: 3.5rem;
   font-weight: bolder;
   color: #202020;
 }
@@ -132,10 +128,9 @@ Footer {
     -webkit-filter: blur(3px);
     filter: blur(3px);
   }
-  .carousel-caption,
-  h3,
-  h5 {
-    font-size: 1rem;
+  .carousel-caption {
+    font-family: "Inter", sans-serif;
+    font-size: 1.2rem;
   }
   .carousel-inner button {
     width: 20%;
