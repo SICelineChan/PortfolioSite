@@ -86,7 +86,7 @@
               style="width:100px;height:100px">
           </lord-icon></div>
             <div class="fs-2 text-center">The Basics</div>
-            <p>Html, CSS and Javascript. The "must" for every web developer, and there are jsut so many new ways to code. I'm taking little chunks of new CSS and Javascript codes in my mini-practice.</p>
+            <p>With experience in writing codes in Html, CSS and Javascript. I seek out new Html, CSS and Javascript codes in my mini-practices and some of these exercises help me to build muscle memories for the basics.</p>
             <p>Check out my personal JS playground on <a href="https://github.com/SICelineChan/jsPlayGround">Github</a>.</p>
           </div>
           <div class="col">
@@ -102,14 +102,14 @@
 
           </div>
           <div class="col">
-            <div class="text-center"><lord-icon
+            <div class="text-center lord-icon"><lord-icon
               src="https://cdn.lordicon.com/wrprwmwt.json"
-              trigger="hover"
+              trigger="loop"
               colors="primary:#121331,secondary:#eee966"
               style="width:100px;height:100px">
           </lord-icon></div>
-            <div class="fs-2 text-center">The Backend bit</div>
-            <p>I learnt Node.js and Express.js with HCS. As a superuser for a large database back in the days, I'm not fazed to build some basic in MySql and MongoDB.</p>
+            <div class="fs-2 text-center">The Backend</div>
+            <p>I learnt Node.js and Express.js with HCS. Having done some data management as a superuser for a large database, I'm not fazed to build simple apps using MySql and MongoDB.</p>
             <p>You can check out my function blog for <a href="https://myfunproject.onrender.com/">Qulimes</a>.</p>
           </div>
         </div>
@@ -180,7 +180,7 @@
       <i class="social-icon fa-brands fa-linkedin"></i></a>
       <a href="mailto:cctinlone@gmail.com"><i class="social-icon fas fa-envelope"></i></a>
       
-      <h3>© Copyright 2023 celine S I chan</h3>
+      <h3>© Copyright <span id="CurrentYear"></span> celine S I chan</h3>
     </div>
     <div class="wavy">
       <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
@@ -188,5 +188,12 @@
       </svg>
   </div>
   </footer>
+  <script>
+    const year = document.querySelector("#CurrentYear")
+    
+    year.innerHTML = new Date().getFullYear()
+  </script>
+
 </body>
+
 </html>
