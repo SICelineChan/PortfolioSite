@@ -2,6 +2,13 @@ body {
   font-family: "Didact Gothic", sans-serif;
   text-align: left;
 }
+a {
+  color: inherit;
+  text-decoration: none;
+}
+a:hover {
+  color: #ffed00;
+}
 .briefHello-box > p {
   font-family: "Inter", sans-serif;
   font-size: 1.4rem;
