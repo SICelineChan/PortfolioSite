@@ -2,9 +2,9 @@ body {
   font-family: "Didact Gothic", sans-serif;
   text-align: left;
 }
-a {
-  color: inherit;
-  text-decoration: none;
+p {
+  font-size: 1.2rem;
+  color: #2a2828;
 }
 a:hover {
   color: #ffed00;
@@ -12,7 +12,7 @@ a:hover {
 .briefHello-box > p {
   font-family: "Inter", sans-serif;
   font-size: 1.4rem;
-  color: #918c8c;
+  color: #5d5b5b;
 }
 .header-Portfolio {
   font-family: "Poppins", sans-serif;
@@ -28,7 +28,7 @@ a:hover {
   font-weight: bold;
 }
 .container-fluid {
-  padding: 5% 5% 2%;
+  padding: 3% 3% 2%;
 }
 .white-section {
   background-color: #fff;
@@ -88,14 +88,17 @@ a:hover {
 .slideImages {
   width: 100%;
   height: 650px;
+  background-color: #ffffff10;
+  -webkit-filter: blur(2px);
+  filter: blur(2px);
 }
 
-#slideImg:hover {
-  -webkit-filter: blur(5px);
-  filter: blur(5px);
-}
+/* #slideImg:hover {
+  -webkit-filter: opacity(50%);
+  filter: opacity(50%);
+} */
 .carousel-caption {
-  font-family: "Inter", sans-serif;
+  font-family: "Inter", normal;
   font-size: 3rem;
 }
 
