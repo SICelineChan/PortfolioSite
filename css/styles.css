@@ -34,7 +34,7 @@ a:hover {
   font-weight: bold;
 }
 .container-fluid {
-  padding: 4% 3% 3% 4%;
+  padding: 8% 3% 3% 4%;
 }
 .white-section {
   background-color: #fff;
@@ -76,7 +76,7 @@ a:hover {
   text-align: left;
 }
 #title .container-fluid {
-  padding: 2% 5% 0 5%;
+  padding: 1% 5% 0 5%;
 }
 
 .title-image {
@@ -114,6 +114,7 @@ a:hover {
 
 /* Footer Section */
 Footer {
+  padding-top: 5%;
   text-align: center;
 }
 .social-icon {
