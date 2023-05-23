@@ -7,8 +7,16 @@ p {
   font-size: 1.2rem;
   color: #2a2828;
 }
-a {
+h2 {
+  text-align: center;
+  font-family: "Didact Gothic", sans-serif;
+  font-size: 2.5rem;
+}
+a,
+li {
   color: #7fbbde;
+  text-decoration: none;
+  list-style: none;
 }
 a:hover {
   color: #ffed00;
@@ -34,7 +42,7 @@ a:hover {
   font-weight: bold;
 }
 .container-fluid {
-  padding: 8% 3% 3% 4%;
+  padding: 8% 10% 5% 10%;
 }
 .white-section {
   background-color: #fff;
@@ -44,13 +52,6 @@ a:hover {
   padding: 0 0 2.5rem;
 }
 
-.navbar-brand {
-  font-family: "Poppins", sans-serif;
-  font-weight: bold;
-  -webkit-text-fill-color: black;
-  -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: #ffed00;
-}
 .nav-item {
   padding: 0 25px;
   color: #8f8f8f;
@@ -61,18 +62,21 @@ a:hover {
   text-decoration: none;
   font-size: 3rem;
   font-family: "Didact Gothic", sans-serif;
+  transition: 3s all ease-in-out;
 }
 .nav-link:focus,
 .nav-link:hover {
   color: #7fbbde;
+  transform: scale(1.4);
 }
 .navbar-toggler-icon {
   color: lightgoldenrodyellow;
 }
 
-#black-background {
-  background-color: #202020;
+.black-background {
+  padding: 3% 10% 5% 10%;
   color: #fff;
+  background-color: #202020;
   text-align: left;
 }
 #title .container-fluid {
@@ -90,9 +94,10 @@ a:hover {
   height: 390px;
   left: 25%;
 }
+
 .slideImages {
   width: 100%;
-  height: 650px;
+  height: 550px;
   background-color: #ffffff10;
   -webkit-filter: blur(2px);
   filter: blur(2px);
@@ -109,7 +114,7 @@ a:hover {
 .subheading {
   text-align: center;
   font-family: "Didact Gothic", sans-serif;
-  color: #202020;
+  color: #fff;
 }
 
 /* Footer Section */
@@ -121,9 +126,13 @@ Footer {
   margin: 20px 10px;
   font-size: 1.5rem;
   color: #7d7777;
+  transition: 0.3s all ease-in-out;
+}
+.social-icon:hover {
+  transform: scale(1.4);
 }
 
-@media (max-width: 1028px) {
+@media (max-width: 1200px) {
   #title {
     text-align: center;
   }
@@ -135,6 +144,12 @@ Footer {
   }
   .wavy {
     position: static;
+  }
+  .header-Portfolio {
+    font-size: 3rem;
+  }
+  .nav-link {
+    font-size: 1rem;
   }
   #slideImg:hover {
     width: 100%;
@@ -173,7 +188,7 @@ Footer {
 .hide {
   opacity: 0;
   filter: blur(2px);
-  transform: translateX(-100%);
+  transform: translateY(-100%);
   transition: all 1s;
 }
 @media (prefers-reduction-motion) {
@@ -184,5 +199,5 @@ Footer {
 .show {
   opacity: 1;
   filter: blur(0);
-  transform: translateX(0);
+  transform: translateY(0);
 }

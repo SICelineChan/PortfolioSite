@@ -27,8 +27,7 @@
 
 <body>
 
-  <section class="colored-section" id="black-background">
-    <div class="container-fluid">
+  <section class="black-background" >
       <nav class="navbar navbar-expand-lg bd-navbar">
         <a class="navbar-brand" href="/"><h1 class="header-Portfolio">Portfolio</h1></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
@@ -38,7 +37,7 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="#aboutMe">About Me</a>
+              <a class="nav-link" href="#aboutMe">About</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#projects">Projects</a>
@@ -50,6 +49,9 @@
           </ul>
         </div>
       </nav>
+
+
+
       <div class="container justify-content-center">
         <div class="row">
         <h1 class="myName hide">Hello, my name is...</h1>
@@ -62,26 +64,26 @@
           
         </div>
       </div>
-    </div>
+  
   </section>
   
   <section class="white-section container-fluid" id="briefHello">
-      
     <div>
         <div id="aboutMe" class="briefHello-box pt-lg-4">
-          <h1 class="subheading hide pt-lg-2"> A brief introduction <lord-icon
+          <h2 class="hide pt-lg-2"> A brief introduction <lord-icon
             src="https://cdn.lordicon.com/brkoqxzy.json"
             trigger="loop"
             colors="primary:#242424,secondary:#1b1091,tertiary:#f9c9c0"
             style="width:80px;height:80px;padding: 1% 2%;">
-        </lord-icon></h1>
+        </lord-icon></h2>
           
           <p>I was born in Hong Kong and grew up in London, where I worked as a health inspector for over a decade, then moved to Germany to become a baker. Recent graduate of Hamburg Coding School’s Full-Stack Web Development course. I'm excited for my first position as a junior web developer <wbr>
           <a href="https://www.linkedin.com/in/celine-chan-179a572b/">
             Visit my LinkedIn profile</a><wbr></p>
         </div>
-        <div class="d-flex row g-4 px-2 row-cols-3 row-cols-3">
-          <div class="col">
+      
+        <div class="d-flex row g-4 px-2 row-cols-3 row-cols-3 ">
+          <div class="col ">
             <div class="text-center"><lord-icon
               src="https://cdn.lordicon.com/nobciafz.json"
               trigger="loop"
@@ -89,8 +91,8 @@
               style="width:100px;height:100px">
           </lord-icon></div>
             <div class="fs-2 text-center">The Basics</div>
-            <p>To practice HTML, CSS and JavaScript, I’ve come up with new challenges to build stronger programming muscle memory.</p>
-            <p>Check out my personal JS playground on <a href="https://github.com/SICelineChan/jsPlayGround">Github</a></p>
+            <p>To practice HTML, CSS and JavaScript, I am using codesandbox and codepen to practise and test my code.</p>
+            <p>Have a look at my codesandboxes <a href="https://codesandbox.io/u/SICelineChan">Codesandbox</a></p>
           </div>
           <div class="col">
             <div class="text-center"><lord-icon
@@ -112,7 +114,7 @@
               style="width:100px;height:100px">
           </lord-icon></div>
             <div class="fs-2 text-center">The Backend</div>
-            <p>I created my first personal project with Node.js and Express.js. My goal is to gain more experience in some of the popular backend frameworks.</p>
+            <p>I created a blog with Node.js and Express.js. My goal is to gain more experience in some of the popular backend frameworks.</p>
             <p>Check out my Node.js blog <a href="https://myfunproject.onrender.com/">Qulimes</a></p>
           </div>
         </div>
@@ -120,7 +122,7 @@
   </section>
 
   <section>
-  <div id="projects" class="container-fluid">
+  <div id="projects" class="container-fluid black-background">
     <h2 class="subheading hide">My Projects <lord-icon
       src="https://cdn.lordicon.com/qatykyxz.json"
       trigger="loop"
@@ -199,7 +201,6 @@
   </footer>
   <script>
     const year = document.querySelector("#CurrentYear")
-    
     year.innerHTML = new Date().getFullYear()
   </script>
 
