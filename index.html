@@ -27,16 +27,16 @@
 
 <body>
 
-  <section class="black-background" >
-      <nav class="navbar navbar-expand-lg bd-navbar">
-        <a class="navbar-brand" href="/"><h1 class="header-Portfolio">Portfolio</h1></a>
+  
+      <nav class="navbar navbar-expand-lg bd-navbar ">
+        <a class="navbar-brand" href="/"><h1 class="typewriter">Portfolio</h1></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
             <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
         </button>
 
         <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
           <ul class="navbar-nav">
-            <li class="nav-item">
+            <li class="nav-item ">
               <a class="nav-link" href="#aboutMe">About</a>
             </li>
             <li class="nav-item">
@@ -49,87 +49,121 @@
           </ul>
         </div>
       </nav>
+   
 
 
+      <div class="black-background">
+          <h3>Hello, my name is <br></h3>
+          <h1 class="glitch" style="font-size: 9rem;">Celine Chan</h1>
+          <h3 class="hide">I am a <br></h3> 
+          <h1 class="glitch hide">freelance web developer</h1>
+    </div>
+       
 
-      <div class="container justify-content-center">
-        <div class="row">
-        <h1 class="myName hide">Hello, my name is...</h1>
-          
-        <div class="col-lg-8">
-          <img class="title-image" src="images/ccHeader2.png" alt="I'm a junior web developer">
-        </div>
-        <div class="col-lg-4">
-          <img class="portrait" src="images/ccPortfolioPic.png" alt="My Portrait">
-          
+  <button id="topBtn" onclick="topFunction()"><lord-icon
+    src="https://cdn.lordicon.com/kxoxiwrf.json"
+    trigger="hover"
+    colors="primary:#303030,secondary:#7fbbde"
+    style="width:50px;height:50px">
+</lord-icon></button>
+
+
+<div class="marquee" id="aboutMe">
+  <div class="marqueeInner">
+    <p class="marqueeLine"><a href="https://www.linkedin.com/in/celine-chan-179a572b/">
+      Visit my LinkedIn profile. You can also check out the links to my projects.</a></p>
+      <p class="marqueeLine"><a href="https://www.linkedin.com/in/celine-chan-179a572b/">
+        Visit my LinkedIn profile. You can also check out the links to my projects.</a></p>
+  </div>
+</div>
+<section class="white-section container-fluid">
+  <div class="row">
+      <div class="briefHello-box col-3 d-flex align-items-center">
+        <h2 class="hide"> About Me</h2>
+        <span class="hide"><lord-icon
+          src="https://cdn.lordicon.com/brkoqxzy.json"
+          trigger="loop"
+          colors="primary:#242424,secondary:#1b1091,tertiary:#f9c9c0"
+          style="width:80px;height:80px;padding: 1% 2%;">
+      </lord-icon></span>
+    </div> 
+      
+        <div class="col-9">
+          <h5 class="glitch" style="font-size: 4rem ; text-align: center;">My job experiences</h5>
+          <div class="accordion" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+              <h2>
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne">
+                  Web Developer year (2023 - today, Hamburg Germany)
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                <div class="accordion-body"><p>
+                  Being fascinated about web development, throughout the years I've taken online courses with Codecademy. Then I completed a 6 months' fullstack developer course with Hamburg Coding School. I'm currently working part-time with StadtSalat and open to a permenant post as a junior web developer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                   Baker years (2018 - 2022, Hamburg Germany)
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                <div class="accordion-body"><p>
+                  I've always wanted to get my hands working on something and missed the rapport from being at work. I decided to learn German and became a baker in Hamburg. The first few years were tough, learning the German culture, language, school and night shifts. It was real mental and phyical challenge.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                  Online tutoring and travelling years (2015 - 2018, London UK)
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                <div class="accordion-body"><p>
+                  My career break began after I left London and had my first experience as a freelance online tutor. I have to organise and manage my time and workload.</p> 
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="true" aria-controls="panelsStayOpen-collapseFour">
+                  Health inspector and Superuser years (2006 - 2015)
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse">
+                <div class="accordion-body"><p>
+                I was first in the health & safety team, then moved to the food team. I was very motivated by new challenges and took on the superuser role. This got me into web design and software development. As a superuser, I facilitated the usability of the internal database for both teams and routinely met with all superusers and our main IT support on a monthly basis. Other than routine duties, I've participated in several cross-team projects and am a qualified trainer.</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
         </div>
       </div>
-  
-  </section>
-  
-  <section class="white-section container-fluid" id="briefHello">
-    <div>
-        <div id="aboutMe" class="briefHello-box pt-lg-4">
-          <h2 class="hide pt-lg-2"> A brief introduction <lord-icon
-            src="https://cdn.lordicon.com/brkoqxzy.json"
-            trigger="loop"
-            colors="primary:#242424,secondary:#1b1091,tertiary:#f9c9c0"
-            style="width:80px;height:80px;padding: 1% 2%;">
-        </lord-icon></h2>
-          
-          <p>I was born in Hong Kong and grew up in London, where I worked as a health inspector for over a decade, then moved to Germany to become a baker. Recent graduate of Hamburg Coding School’s Full-Stack Web Development course. I'm excited for my first position as a junior web developer <wbr>
-          <a href="https://www.linkedin.com/in/celine-chan-179a572b/">
-            Visit my LinkedIn profile</a><wbr></p>
-        </div>
-      
-        <div class="d-flex row g-4 px-2 row-cols-3 row-cols-3 ">
-          <div class="col ">
-            <div class="text-center"><lord-icon
-              src="https://cdn.lordicon.com/nobciafz.json"
-              trigger="loop"
-              colors="primary:#121331,secondary:#66d7ee"
-              style="width:100px;height:100px">
-          </lord-icon></div>
-            <div class="fs-2 text-center">The Basics</div>
-            <p>To practice HTML, CSS and JavaScript, I am using codesandbox and codepen to practise and test my code.</p>
-            <p>Have a look at my codesandboxes <a href="https://codesandbox.io/u/SICelineChan">Codesandbox</a></p>
-          </div>
-          <div class="col">
-            <div class="text-center"><lord-icon
-              src="https://cdn.lordicon.com/anihkfxp.json"
-              trigger="loop"
-              colors="primary:#121331,secondary:#ff66c4,tertiary:#eee966"
-              style="width:100px;height:100px">
-          </lord-icon></div>
-            <div class="fs-2 text-center">The Frameworks</div>
-            <p>I learnt Bootstrap as a start to understand CSS basic. Currently learning Tailwind CSS to build React web applications.</p>
-            <p>Visit my personal React playground on  <a href="https://github.com/SICelineChan/React-Practice">Github</a></p>
+    
+    </section>
 
-          </div>
-          <div class="col">
-            <div class="text-center lord-icon"><lord-icon
-              src="https://cdn.lordicon.com/wrprwmwt.json"
-              trigger="loop"
-              colors="primary:#121331,secondary:#eee966"
-              style="width:100px;height:100px">
-          </lord-icon></div>
-            <div class="fs-2 text-center">The Backend</div>
-            <p>I created a blog with Node.js and Express.js. My goal is to gain more experience in some of the popular backend frameworks.</p>
-            <p>Check out my Node.js blog <a href="https://myfunproject.onrender.com/">Qulimes</a></p>
-          </div>
-        </div>
+    <div class="marquee">
+      <div class="marqueeInner">
+        <p class="marqueeLine"><a href="https://www.linkedin.com/in/celine-chan-179a572b/">
+          Visit my LinkedIn profile.</a></p>
+          <p class="marqueeLine"><a href="https://www.linkedin.com/in/celine-chan-179a572b/">Visit my LinkedIn profile.</a></p>
+      </div>
     </div>
-  </section>
-
   <section>
   <div id="projects" class="container-fluid black-background">
-    <h2 class="subheading hide">My Projects <lord-icon
+    <h2 class="header-Project hide">Projects <lord-icon
       src="https://cdn.lordicon.com/qatykyxz.json"
       trigger="loop"
       colors="primary:#121331,secondary:#f49cc8"
       style="width:100px;height:100px; padding:2% 2% 3%;">
   </lord-icon></h2>
-    <h4 class="subheading hide pt-md-2">Here are some of the apps that I've created, click on the buttons to view my code.</h4>
+    <h4 class="subheading hide pt-md-2">Take a look at my projects.</h4>
     
     <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-indicators">
@@ -141,7 +175,7 @@
         <div class="carousel-item active">
           <a href="https://myfunproject.onrender.com/"><img id="slideImg" src="images/qulimesBlog.png" class="img-fluid slideImages" alt="nodejsApp"></a>
           <div class="carousel-caption d-none d-md-block text-white">
-            <h2>A Travel Blog from Qulimes</h2>
+            <h3>A Travel Blog from Qulimes</h3>
             <h4>My first project to create a blog using Node.js, Express.js and MongoDB for back-end. This project is deployed and hosted by Render.</h4>
             <a href="https://github.com/SICelineChan/Chromebk_Project1_Nodejs">
               <button class="btn btn-lg btn-block btn-dark" type="button">Github</button></a>
@@ -153,7 +187,7 @@
           <a href="https://github.com/SICelineChan/projectFin_hcs_cc"><img id="slideImg" src="images/reactApp.png" class="img-fluid slideImages" alt="reactApp"></a>
 
           <div class="carousel-caption d-none d-md-block text-white">
-            <h2>Travel Blog with clickable map function</h2>
+            <h3>Travel Blog with clickable map function</h3>
             <h4>My final project with Hamburg Coding School using React and Bootstrap. A map function from Mapbox to view the countries that I have visited. This site is hosted by Netlify.</h4>
             <a href="https://github.com/SICelineChan/projectFin_hcs_cc">
               <button class="btn btn-lg btn-block btn-dark" type="button">Github</button></a>
@@ -164,7 +198,7 @@
         <div class="carousel-item">
           <a href="https://github.com/SICelineChan/projectFin_hcs_cc"><img id="slideImg" src="images/reactWeatherApp.jpg"  class="img-fluid slideImages" alt="React Weather App"></a>
           <div class="carousel-caption d-none d-md-block text-white">
-            <h2>Weather App using React.js</h2>
+            <h3>Weather App using React.js</h3>
             <h4>An example of React practice to fetch data from a REST API and use different hooks.</h4>
             <a href="https://github.com/SICelineChan/projectFin_hcs_cc">
               <button class="btn btn-lg btn-block btn-dark" type="button">Github</button></a>
@@ -182,7 +216,16 @@
     </div>
   </section>
 </div>
-  <footer class="white-section" id="footer">
+
+<div class="marquee">
+  <div class="marqueeInner">
+    <p class="marqueeLine"><a href="https://www.linkedin.com/in/celine-chan-179a572b/">
+      Visit my LinkedIn profile and have a look at my projects</a></p>
+      <p class="marqueeLine"><a href="https://www.linkedin.com/in/celine-chan-179a572b/">Visit my LinkedIn profile and have a look at my projects</a></p>
+  </div>
+</div>
+
+  <footer id="footer">
     <div class="container-fluid">
       <a href="https://www.instagram.com/breadaboutit/"><i class="social-icon  fa-brands fa-instagram"></i></a>
       <a href="https://github.com/SICelineChan">
@@ -202,6 +245,26 @@
   <script>
     const year = document.querySelector("#CurrentYear")
     year.innerHTML = new Date().getFullYear()
+
+    let topBtn = document.getElementById("topBtn");
+    window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    topBtn.style.display = "block";
+    console.log(top.style.display);
+
+  } else {
+    topBtn.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
   </script>
 
 </body>
