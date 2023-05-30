@@ -10,10 +10,10 @@ body {
   padding: 5% 2% 8%;
   background-color: #fff;
 }
-.black-background {
-  padding: 1% 2% 4% 2%;
+.dark-background {
+  padding: 1% 2% 8% 2%;
   color: #fff;
-  background-color: #2a0944;
+  background-color: #fec260;
   text-align: left;
 }
 p {
@@ -45,23 +45,35 @@ a:hover {
 }
 .about-section,
 .about-section p {
-  background-color: #fec260;
+  background-color: #fed085;
   padding: 2% 5% 3%;
   font-family: "Inter", sans-serif;
   line-height: 1.4;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   color: #2a0944;
   text-align: center;
 }
+.foto {
+  width: 180px;
+  height: 180px;
 
+  margin: 5% 2% 1% 8%;
+}
 .header-Project {
   font-family: "Poppins", sans-serif;
+  text-align: center;
   margin-left: 45px;
   -webkit-text-fill-color: #2a0944;
   -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: #fec260;
-  font-size: 7.5rem;
+  -webkit-text-stroke-color: #a12568;
 }
+.img-react-project1,
+.img-react-project2 {
+  width: 50%;
+  padding: 2%;
+  border-radius: 5%;
+}
+
 .typewriter {
   color: #2a0944;
   padding-left: 25px;
@@ -118,22 +130,6 @@ a:hover {
   color: lightgoldenrodyellow;
 }
 
-.slideImages {
-  width: 100%;
-  height: 700px;
-  background-color: #ffffff10;
-  -webkit-filter: blur(2px);
-  filter: blur(2px);
-}
-
-#slideImg:hover {
-  -webkit-filter: blur(0px);
-  filter: blur(0px);
-}
-.carousel-caption {
-  font-family: "Inter", normal;
-  font-size: 3rem;
-}
 .subheading {
   text-align: center;
   font-family: "Didact Gothic", sans-serif;
@@ -142,13 +138,13 @@ a:hover {
 
 /* Footer Section */
 Footer {
-  padding-top: 5%;
+  padding-top: 8%;
   text-align: center;
 }
 .social-icon {
   margin: 20px 10px;
   font-size: 1.5rem;
-  color: #7d7777;
+  color: #fec260;
   transition: 0.3s all ease-in-out;
 }
 .social-icon:hover {
@@ -173,20 +169,6 @@ Footer {
   }
   .nav-link {
     font-size: 1rem;
-  }
-  #slideImg:hover {
-    width: 100%;
-    height: 450px !important;
-    -webkit-filter: blur(3px);
-    filter: blur(3px);
-  }
-  .carousel-caption {
-    font-family: "Inter", sans-serif;
-    font-size: 1.2rem;
-  }
-  .carousel-inner button {
-    width: 20%;
-    height: 20%;
   }
 }
 .wavy {
@@ -242,7 +224,7 @@ Footer {
 }
 
 #topBtn:hover {
-  background-color: #fec260;
+  background-color: #275dad;
 }
 
 .glitch {
@@ -250,7 +232,7 @@ Footer {
   font-weight: bold;
   position: relative;
   text-shadow: 0.05em 0 0 #7fbbde, -0.03em -0.04em 0 #a12568,
-    0.025em 0.04em 0 #fec260;
+    0.025em 0.04em 0 #275dad;
   animation: glitch 725ms infinite;
 }
 
@@ -277,38 +259,38 @@ Footer {
 @keyframes glitch {
   0% {
     text-shadow: 0.05em 0 0 #7fbbde, -0.03em -0.04em 0 #a12568,
-      0.025em 0.04em 0 #fec260;
+      0.025em 0.04em 0 #275dad;
   }
   15% {
     text-shadow: 0.05em 0 0 #7fbbde, -0.03em -0.04em 0 #a12568,
-      0.025em 0.04em 0 #fec260;
+      0.025em 0.04em 0 #275dad;
   }
   16% {
     text-shadow: -0.05em -0.025em 0 #7fbbde, 0.025em 0.035em 0 #a12568,
-      -0.05em -0.05em 0 #fec260;
+      -0.05em -0.05em 0 #275dad;
   }
   49% {
     text-shadow: -0.05em -0.025em 0 #7fbbde, 0.025em 0.035em 0 #a12568,
-      -0.05em -0.05em 0 #fec260;
+      -0.05em -0.05em 0 #275dad;
   }
   50% {
     text-shadow: 0.05em 0.035em 0 #7fbbde, 0.03em 0 0 #a12568,
-      0 -0.04em 0 #fec260;
+      0 -0.04em 0 #275dad;
   }
   99% {
     text-shadow: 0.05em 0.035em 0 #7fbbde, 0.03em 0 0 #a12568,
-      0 -0.04em 0 #fec260;
+      0 -0.04em 0 #275dad;
   }
   100% {
     text-shadow: -0.05em 0 0 #7fbbde, -0.025em -0.04em 0 #a12568,
-      -0.04em -0.025em 0 #fec260;
+      -0.04em -0.025em 0 #275dad;
   }
 }
 /* Line of Text aka marquee */
 .marquee {
   overflow: hidden;
   text-transform: uppercase;
-  background-color: #ffdc00;
+  background-color: #fed085;
 }
 
 .marqueeInner {
@@ -319,7 +301,9 @@ Footer {
   flex-shrink: 0;
   margin: 0;
   font-family: "Inter", sans-serif;
-  font-size: 2rem;
+  font-size: 2.4rem;
+  font-weight: bolder;
+  margin-left: 2%;
   padding: 60px 12px;
   min-width: 100%;
   white-space: nowrap;

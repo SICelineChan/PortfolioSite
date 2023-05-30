@@ -28,8 +28,8 @@
 <body>
 
   
-      <nav class="navbar navbar-expand-lg bd-navbar ">
-        <a class="navbar-brand" href="/"><h1 class="typewriter">Portfolio</h1></a>
+      <nav class="navbar navbar-expand-lg bd-navbar dark-background">
+        <!-- <a class="navbar-brand" href="/"><h1 class="typewriter">Portfolio</h1></a> -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
             <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
         </button>
@@ -44,7 +44,7 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="https://github.com/SICelineChan">
-                <i class="fa-brands fa-github"></i></a>
+                <!-- <i class="fa-brands fa-github"></i> --> Github</a> 
             </li>
           </ul>
         </div>
@@ -52,11 +52,11 @@
    
 
 
-      <div class="black-background">
+      <div class="dark-background">
           <h3>Hello, my name is <br></h3>
-          <h1 class="glitch" style="font-size: 9rem;">Celine Chan</h1>
-          <h3 class="hide">I am a <br></h3> 
-          <h1 class="glitch hide">web developer</h1>
+          <h1 class="glitch" style="font-size:9rem;">Celine Chan</h1>
+          <h3 class="hide">I am a</h3> <br> 
+          <h2 class="glitch hide"> frontend web developer</h2>
     </div>
        
 
@@ -68,32 +68,23 @@
 </lord-icon></button>
 
 
-<div class="marquee" id="aboutMe">
-  <div class="marqueeInner">
-    <p class="marqueeLine"><a href="https://www.linkedin.com/in/celine-chan-179a572b/">
-      Visit my LinkedIn profile. You can also check out the links to my projects.</a></p>
-      <p class="marqueeLine"><a href="https://www.linkedin.com/in/celine-chan-179a572b/">
-        Visit my LinkedIn profile. You can also check out the links to my projects.</a></p>
-  </div>
-</div>
-
-  
-      <div class="about-section">
+      <div id="aboutMe" class="about-section">
         <h2 class="hide"> About Me <lord-icon
           src="https://cdn.lordicon.com/brkoqxzy.json"
           trigger="loop"
           colors="primary:#242424,secondary:#1b1091,tertiary:#f9c9c0"
           style="width:80px;height:80px;padding: 1% 2%;">
       </lord-icon></h2>
-      <p>My interest in web dev began when I took on an extra role as a superuser as part of my job in central London. I enjoyed solving IT issues for colleagues at work and attended evening HTML courses. Throughout the years, I continued learning how to code with Codecademy to build a solid background on HTML and JavaScript. Wanting to learn more about web development and how web apps are built, I completed a 6 months' fullstack course with Hamburg Coding School. I'm now a freelance web developer looking for a permanent position to broaden my experience. </p>
+      <img class="foto" src="/images/ccPortfolioPic.png" alt="">
+      <p>My interest in web dev began when I took on an extra role as a superuser as part of my job in central London. I enjoyed solving IT issues for colleagues at work and attended evening HTML courses. Throughout the years, I continued learning how to code using Codecademy and Udemy courses to build a solid background on HTML and JavaScript.Wanting to learn more about web development and how web apps are built, I completed a 6 months' fullstack course with Hamburg Coding School. I'm now a freelance frontend web developer looking for a permanent position to broaden my programming skill. </p>
      
-      <p>Have a look at the summary of my job experiences <a href="#jobExp"><i class="fa-solid fa-sort-down"></i></a></p>
+      <p>Take a look at the summary of my job experiences <a href="#jobExp"><i class="fa-solid fa-sort-down"></i></a></p>
     </div>
 
     <section class="white-section">
         <div class="container-fluid">
           <h5 id="jobExp" class="glitch" style="font-size: 4rem ; text-align: center;">My job experiences</h5>
-        
+         <br>
           <div class="accordion" id="accordionPanelsStayOpenExample">
             <div class="accordion-item">
               <h2>
@@ -131,92 +122,45 @@
                 </div>
               </div>
             </div>
-
           </div>
         </div>
-     
     
     </section>
-
-    <div class="marquee">
-      <div class="marqueeInner">
-        <p class="marqueeLine"><a href="https://www.linkedin.com/in/celine-chan-179a572b/">
-          Visit my LinkedIn profile.</a></p>
-          <p class="marqueeLine"><a href="https://www.linkedin.com/in/celine-chan-179a572b/">Visit my LinkedIn profile.</a></p>
+    <section>
+      <div class="marquee">
+        <div class="marqueeInner">
+          <p class="marqueeLine"><a href="https://www.linkedin.com/in/celine-chan-179a572b/">
+            Visit my LinkedIn profile or check out the links to my projects.</a></p>
+            <p class="marqueeLine"><a href="https://www.linkedin.com/in/celine-chan-179a572b/">Visit my LinkedIn profile or check out the links to my projects.</a></p>
+        </div>
       </div>
+    </section>
+
+    <div id="projects" class="container-fluid dark-background">
+      <h2 class="header-Project hide">Projects <lord-icon
+        src="https://cdn.lordicon.com/qatykyxz.json"
+        trigger="loop"
+        colors="primary:#121331,secondary:#f49cc8"
+        style="width:100px;height:100px; padding:2% 2% 3%;">
+    </lord-icon></h2>
+      <h4 class="subheading hide pt-md-2">Have a look at some of my projects below.</h4>
     </div>
-  <section>
-  <div id="projects" class="container-fluid black-background">
-    <h2 class="header-Project hide">Projects <lord-icon
-      src="https://cdn.lordicon.com/qatykyxz.json"
-      trigger="loop"
-      colors="primary:#121331,secondary:#f49cc8"
-      style="width:100px;height:100px; padding:2% 2% 3%;">
-  </lord-icon></h2>
-    <h4 class="subheading hide pt-md-2">Take a look at my projects.</h4>
-    
-    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <a href="https://myfunproject.onrender.com/"><img id="slideImg" src="images/qulimesBlog.png" class="img-fluid slideImages" alt="nodejsApp"></a>
-          <div class="carousel-caption d-none d-md-block text-white">
-            <h3>A Travel Blog from Qulimes</h3>
-            <h4>My first project to create a blog using Node.js, Express.js and MongoDB for back-end. This project is deployed and hosted by Render.</h4>
-            <a href="https://github.com/SICelineChan/Chromebk_Project1_Nodejs">
-              <button class="btn btn-lg btn-block btn-dark" type="button">Github</button></a>
-              <a href="https://myfunproject.onrender.com/">
-                <button class="btn btn-lg btn-block btn-dark" type="button">Website</button></a>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <a href="https://github.com/SICelineChan/projectFin_hcs_cc"><img id="slideImg" src="images/reactApp.png" class="img-fluid slideImages" alt="reactApp"></a>
-
-          <div class="carousel-caption d-none d-md-block text-white">
-            <h3>Travel Blog with clickable map function</h3>
-            <h4>My final project with Hamburg Coding School using React and Bootstrap. A map function from Mapbox to view the countries that I have visited. This site is hosted by Netlify.</h4>
-            <a href="https://github.com/SICelineChan/projectFin_hcs_cc">
-              <button class="btn btn-lg btn-block btn-dark" type="button">Github</button></a>
-              <a href="https://letdothistravel.netlify.app/">
-                <button class="btn btn-lg btn-block btn-dark" type="button">Website</button></a>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <a href="https://github.com/SICelineChan/projectFin_hcs_cc"><img id="slideImg" src="images/reactWeatherApp.jpg"  class="img-fluid slideImages" alt="React Weather App"></a>
-          <div class="carousel-caption d-none d-md-block text-white">
-            <h3>Weather App using React.js</h3>
-            <h4>An example of React practice to fetch data from a REST API and use different hooks.</h4>
-            <a href="https://github.com/SICelineChan/projectFin_hcs_cc">
-              <button class="btn btn-lg btn-block btn-dark" type="button">Github</button></a>
-          </div>
-        </div>
-      </div>
-      <button class="carousel-control-prev text-light-emphasis" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span>Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-  </section>
-</div>
-
-<div class="marquee">
-  <div class="marqueeInner">
-    <p class="marqueeLine"><a href="https://www.linkedin.com/in/celine-chan-179a572b/">
-      Visit my LinkedIn profile and have a look at my projects</a></p>
-      <p class="marqueeLine"><a href="https://www.linkedin.com/in/celine-chan-179a572b/">Visit my LinkedIn profile and have a look at my projects</a></p>
-  </div>
-</div>
+<div class="white-section">
+  <h2 class="header-Project">Travel blog using React and Mapbox</h2>
+  <img src="/images/dashboardReactproject.png" class="rounded img-react-project1" alt="...">
+  <img src="/images/React_Project.png" class="rounded float-end img-react-project1" alt="...">
+    <p>My final project at the end of my 6 months' coding course using React. There are examples of how the JavaScript map() method is applied, Wouter for routing and Mapbox for all the map functions. After submitting this project, I continue to tidy-up some of my code and worked on areas that I had issues with, such as deployment and basic layout. This project is now deployed and you can visit <a href="https://letdothistravel.netlify.app/">here</a></p>
+  <br>
+  <br>
+    <h2 class="header-Project">Travel blog using Node.js, ejs and MongoDB</h2>
+    <img src="/images/quilmesBlog.png" class="rounded img-react-project1" alt="...">
+    <img src="/images/quilmesIndex.png" class="rounded float-end img-react-project1" alt="...">
+      <p>Whilst finsihing the course, I decided to learn more about Node.js myself. Using the materials and some additional self-learning, I built a working blog with ejs and MongoDB. It's a fully functional blog page that I can view all blogs, add new blog, edit existing content and delete any old ones. This project is deployed using Render. check it out <a href="https://myfunproject.onrender.com/">here</a></p>
+    </div> 
+  
 
   <footer id="footer">
-    <div class="container-fluid">
+    <div class="container">
       <a href="https://www.instagram.com/breadaboutit/"><i class="social-icon  fa-brands fa-instagram"></i></a>
       <a href="https://github.com/SICelineChan">
       <i class="social-icon fa-brands fa-github"></i></a>
@@ -226,12 +170,14 @@
       
       <h4>© Copyright <span id="CurrentYear"></span> celine S I chan</h4>
     </div>
+
     <div class="wavy">
       <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
           <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
       </svg>
   </div>
   </footer>
+
   <script>
     const year = document.querySelector("#CurrentYear")
     year.innerHTML = new Date().getFullYear()
