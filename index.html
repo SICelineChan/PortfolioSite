@@ -13,7 +13,9 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
 
-  
+  <!-- php script -->
+  <script src="//cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
+
   <script src="https://kit.fontawesome.com/86c485152f.js" crossorigin="anonymous"></script>
   <script defer src="interApp.js"></script>
   <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
@@ -145,19 +147,33 @@
     </lord-icon></h2>
       <h4 class="subheading hide pt-md-2">Have a look at some of my projects below.</h4>
     </div>
-<div class="white-section">
-  <h2 class="header-Project">Travel blog using React and Mapbox</h2>
-  <img src="images/dashboardReactproject.png" class="rounded img-react-project1" alt="...">
-  <img src="images/React_Project.png" class="rounded float-end img-react-project1" alt="...">
-    <p>My final project at the end of my 6 months' coding course using React. There are examples of how the JavaScript map() method is applied, Wouter for routing and Mapbox for all the map functions. After submitting this project, I continue to tidy-up some of my code and worked on areas that I had issues with, such as deployment and basic layout. This project is now deployed and you can visit <a href="https://letdothistravel.netlify.app/">here</a></p>
-  <br>
-  <br>
+
+  <div class="white-section">
     <h2 class="header-Project">Travel blog using Node.js, ejs and MongoDB</h2>
-    <img src="images/quilmesBlog.png" class="rounded img-react-project1" alt="...">
-    <img src="images/quilmesIndex.png" class="rounded float-end img-react-project1" alt="...">
-      <p>Whilst finsihing the course, I decided to learn more about Node.js myself. Using the materials and some additional self-learning, I built a working blog with ejs and MongoDB. It's a fully functional blog page that I can view all blogs, add new blog, edit existing content and delete any old ones. This project is deployed using Render. check it out <a href="https://myfunproject.onrender.com/">here</a></p>
+    <img src="images/quilmesBlog.png" class="rounded img-react-project1">
+    <img src="images/quilmesIndex.png" class="rounded float-end img-react-project1">
+    <p>Whilst finsihing the course, I decided to learn more about Node.js myself. Using the materials and some additional self-learning, I built a working blog with ejs and MongoDB. It's a fully functional blog page that I can view all blogs, add new blog, edit existing content and delete any old ones. This project is deployed using Render. check it out <a href="https://myfunproject.onrender.com/">here</a></p>
     </div> 
   
+    <div class="container-fluid">
+      <h2 class="header-Project">Travel blog using React and Mapbox</h2>
+      <img src="images/React_Project.png" class="rounded img-react-project1">
+      <img src="images/dashboardReactproject.png" class="rounded float-end img-react-project1">
+    
+      <p class="pt-1">My final project at the end of my 6 months' coding course using React. There are examples of how the JavaScript map() method is applied, Wouter for routing and Mapbox for all the map functions. After submitting this project, I continue to tidy-up some of my code and worked on areas that I had issues with, such as deployment and basic layout. This project is now deployed and you can visit <a href="https://letdothistravel.netlify.app/">here</a></p>
+    </div>
+    <div class="dark-background text-start">
+      <div class="row">
+      <form class="form" >
+        <h2>Ping Me!</h2>
+        <h5 class="col-4"><label>Name:</label><input class="col-12" name="myEmail" type="text" /></h5>
+        <h5 class="col-4"><label>Email Address:</label> <input class="col-12" style="cursor: pointer;" name="myEmail" type="text" /></h5>
+        <h5 class="col-4"><label>Message:</label>  <textarea class="col-12" name="message"></textarea> </h5>
+        <p><input type="submit" value="Send" /></p>
+      
+        </form>
+      </div>
+    </div>
 
   <footer id="footer">
     <div class="container">
@@ -200,6 +216,8 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+
 
   </script>
 
