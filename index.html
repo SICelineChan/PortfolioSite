@@ -148,11 +148,11 @@
       <h4 class="subheading hide pt-md-2">Have a look at some of my projects below.</h4>
     </div>
 
-  <div class="white-section">
+  <div class="container-fluid">
     <h2 class="header-Project">Travel blog using Node.js, ejs and MongoDB</h2>
     <img src="images/quilmesBlog.png" class="rounded img-react-project1">
     <img src="images/quilmesIndex.png" class="rounded float-end img-react-project1">
-    <p>Whilst finsihing the course, I decided to learn more about Node.js myself. Using the materials and some additional self-learning, I built a working blog with ejs and MongoDB. It's a fully functional blog page that I can view all blogs, add new blog, edit existing content and delete any old ones. This project is deployed using Render. check it out <a href="https://myfunproject.onrender.com/">here</a></p>
+    <p>After completed the course, I just want to learn more about Node.js myself and try different things. Using the materials and some additional self-learning, I built a working blog with ejs and MongoDB. It's a fully functional blog page that I can view all blogs, add new blog, edit existing content and delete any old ones. This project is deployed using Render. check it out <a href="https://myfunproject.onrender.com/">here</a></p>
     </div> 
   
     <div class="container-fluid">
@@ -164,12 +164,24 @@
     </div>
     <div class="dark-background text-start">
       <div class="row">
-      <form class="form" >
+      <form class="form" action="contactMe.php" method="POST" >
+        
         <h2>Ping Me!</h2>
-        <h5 class="col-4"><label>Name:</label><input class="col-12" name="myEmail" type="text" /></h5>
-        <h5 class="col-4"><label>Email Address:</label> <input class="col-12" style="cursor: pointer;" name="myEmail" type="text" /></h5>
-        <h5 class="col-4"><label>Message:</label>  <textarea class="col-12" name="message"></textarea> </h5>
-        <p><input type="submit" value="Send" /></p>
+        <p>Let's work together! You can send me a message below.</p>
+
+        <h5 class="col-4">
+          <label for>Name:</label>
+          <input class="col-12" id="name" name="name" type="text" /></h5>
+        
+          <h5 class="col-4">
+        <label for>Email:</label> 
+        <input class="col-12" id="email" style="cursor: pointer;" name="email" type="text" /></h5>
+        
+        <h5 class="col-4">
+          <label>Message:</label>  
+          <textarea class="col-12" id="message" name="message"></textarea> </h5>
+        
+          <p><input type="submit" value="Send" /></p>
       
         </form>
       </div>
